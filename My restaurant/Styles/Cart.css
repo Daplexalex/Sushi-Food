@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,300&display=swap');
+* {
+margin: 0px;
+}
+.side {
+    width: 70px;
+    height: 500px;
+    background: #0C0B0B;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+
+.plug {
+    margin-left: 
+}
+    
+    .side-bar {
+        display: inline-block;
+        margin-right: 20px;
+       
+    }
+    
+    .vector {
+        height: 500px;
+        width: 50px;
+    }
+    .S {
+        position: absolute;
+        top: 40px;
+        left: 30px;
+        width: 45px;
+    
+    }
+    
+    .H {
+        position: absolute;
+        top: 118px;
+        left: 30px;
+        width: 40px;
+    }
+    
+    .Rec {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 50px;
+    top: 150px;
+    }
+    
+    .R {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    background-color: white;
+    }
+    
+    .C {
+        position: absolute;
+        top: 280px;
+        left: 30px;
+        width: 50%;
+        }
+    
+    .M {
+        position: absolute;
+        top: 370px;
+        left: 35px;
+        width: 50%;
+       }
+    
+    .E {
+        position: absolute;
+        top: 450px;
+        left: 35px;
+        width: 50%;
+        }
+
+.Amala {
+    border-radius: 50px;
+    width:50px;
+}
+
+.cart {
+margin-top: 20px;
+display: inline-block;
+vertical-align: top;
+
+}
+    
+.word {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 20px;
+
+                
+}
+.t {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+p {
+margin-top: 0px;
+font-family: 'Mulish';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 15px;
+}
+.a {
+    font-size: 17px;
+}
+
+.price {
+margin-left: 10px;
+}
+
+.food {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #F1D5BB;
+    margin-top: 10px;
+    padding-right: 10px;
+   
+}
+
+.a,
+.o {
+font-size: 17px;
+font-weight: bold;
+
+}
+.q {
+font-size: 13px;
+font-weight: 100px;
+margin-bottom: 10px;
+}
+
+.bu {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+   
+
+.order {
+    background-color: #F1D5BB;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 60px;
+   
+}
+.last {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 54px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #F1D5BB;
+    padding-bottom: 20px;;
+    padding-right: 0.1px;
+}
+
+.apply {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white
+
+}
+.promo {
+    margin-left: 10px;
+}
+.o {
+    margin-top: 10px;
+}
+.code {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-top: 10px;
+    border-color:#F1D5BB;
+    padding-right: 2.5%;
+}

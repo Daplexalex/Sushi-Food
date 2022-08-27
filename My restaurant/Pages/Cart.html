@@ -1,0 +1,177 @@
+<html large="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/Cart.css">
+
+    <script type="text/javascript">
+        function incrementValue()
+        {
+            var value = parseInt(document.getElementById('number').value, 10);
+            value = isNaN(value) ? 0 : value;
+            if(value<10){
+                value++;
+                    document.getElementById('number').value = value;
+            }
+        }
+        function decrementValue()
+        {
+            var value = parseInt(document.getElementById('number').value, 10);
+            value = isNaN(value) ? 0 : value;
+            if(value>1){
+                value--;
+                    document.getElementById('number').value = value;
+            }
+        
+        }
+        </script>
+</head>
+<body>
+
+  <div class="plug">
+    <div class="side-bar">
+        <div class="side">
+            <img src="/Images/Rectangle 2.png">
+        </div>
+
+        
+         <div>
+              <img class="S" src="/Sidebar/S..png">
+         </div>
+
+        <div>
+           <a href="/Homepage.html"><img class="H" src="/Sidebar/Vector.png"></a>
+         </div>
+
+         <div>
+            <img class="R" src="/Sidebar/spoon.png">
+        </div>
+
+        <div class="C">
+          <a href="/Pages/Cart.html"> <img class="shop" src="/Sidebar/shopping.png"></a> 
+        </div>
+
+        <div class="M">
+            <img class="map" src="/Sidebar/map.png">
+        </div>
+
+        <div class="E">
+            <img class="exit" src="/Sidebar/Exit.png">
+        </div>
+
+       </div>
+
+
+       <div class="cart">
+
+        <div>
+            <p class="t">CART</p>
+        </div>
+    
+    
+            <div class="food">
+                <div class="word">
+                    <div>
+                        <img class="Amala" src="/Food/Amala and Ewedu.jpg">
+                    </div>
+                   <div class="price">
+                    <p class="a">Amala and Ewedu</p>
+                
+                    <p>₦1000.00</p>
+                   </div> 
+                </div>
+                   
+                
+                    <div class="container">
+                        <input type="button" onclick="decrementValue()" value="-" />
+                        <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+                        <input type="button" onclick="incrementValue()" value="+" />
+                        </div>
+                   
+            
+            
+                   <div class="word">
+                    <div>
+                        <img class="Amala" src="/Food/Jollof rice and chicken.jpg">
+                    </div>
+                   <div class="price">
+                    <p class="a">Jollof Rice</p>
+                
+                    <p>₦1000.00</p>
+                   </div> 
+                </div>
+                   
+                
+                    <div class="container">
+                        <input type="button" onclick="decrementValue()" value="-" />
+                        <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+                        <input type="button" onclick="incrementValue()" value="+" />
+                        </div>
+
+
+
+                        <div class="word">
+                            <div>
+                                <img class="Amala" src="/Food/Beans.jpg">
+                            </div>
+                           <div class="price">
+                            <p class="a">Beans</p>
+                        
+                            <p>₦1000.00</p>
+                           </div> 
+                        </div>
+                           
+                        
+                            <div class="container">
+                                <input type="button" onclick="decrementValue()" value="-" />
+                                <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+                                <input type="button" onclick="incrementValue()" value="+" />
+                                </div>
+
+
+                                <div class="word">
+                                    <div>
+                                        <img class="Amala" src="/Food/Porridge.jpg">
+                                    </div>
+                                   <div class="price">
+                                    <p class="a">Porridge</p>
+                                
+                                    <p>₦1000.00</p>
+                                   </div> 
+                                </div>
+                                   
+                                
+                                    <div class="container">
+                                        <input type="button" onclick="decrementValue()" value="-" />
+                                        <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+                                        <input type="button" onclick="incrementValue()" value="+" />
+                                        </div>
+            </div>
+
+       </div>
+
+            <div class="last">
+                <div class="order">
+                    <p class="a">Your Subtotal</p>
+                    <br>
+                    <p class="q">Subtotal &nbsp;&nbsp ₦4000.00</p>
+
+                    <button class="bu">Confirm Order</button>
+    
+                 </div>
+                
+                 <div class="promo">
+                    <p class="o">Promo Code</p>
+
+                 <input class="code" type="text" placeholder="enter promo code">
+                 <br>
+                 <button class="apply">Apply</button>
+                 </div>
+            </div>
+  </div>
+                 
+
+                 
+</body>
+</html>

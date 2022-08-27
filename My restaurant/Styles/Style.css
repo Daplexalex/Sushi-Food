@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Home {
+    position: relative;
+}
+
+.Background-image {
+    height: 100vh;
+    overflow: hidden;
+    
+    
+}
+
+.Text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Text h2 {
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 75px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.Text p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+    
+}
+
+.Text Span {
+    font-weight: 700;
+}
+
+.option {
+  position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+width: 200px;
+height: 60px;
+left: 460px;
+top: 548px;
+border-width: 1px;
+background: #FFFFFF;
+border-radius: 2px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 38px;
+cursor: pointer;
+transition: background-color 1s,
+color 1s;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
